@@ -1,0 +1,20 @@
+{
+  "metas": [
+    {
+      "imageUrl": "https://map-making.app/manual/images/export-json.png",
+      "tag": "Baum",
+      "text": "baum"
+    },
+    {
+      "imageUrl": "https://map-making.app/manual/images/export-json.png",
+      "tag": "baum2",
+      "text": "baum2"
+    },
+    {
+      "imageUrl": "",
+      "tag": "",
+      "text": ""
+    }
+  ],
+  "world": "bier"
+}
