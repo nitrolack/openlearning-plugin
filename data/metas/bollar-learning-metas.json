@@ -1,0 +1,20 @@
+{
+  "metas": [
+    {
+      "imageUrl": "https://static.vecteezy.com/system/resources/thumbnails/073/912/605/small/roadside-security-bollards-with-red-lights-photo.jpg",
+      "tag": "bolario",
+      "text": "bolario"
+    },
+    {
+      "imageUrl": "https://static.vecteezy.com/system/resources/thumbnails/006/241/602/small/restrictive-columns-in-a-car-parking-photo.jpg",
+      "tag": "Bollar 1",
+      "text": "Bollar 1"
+    },
+    {
+      "tag": "NewBollar",
+      "text": "NewBollar",
+      "imageUrl": "https://static.vecteezy.com/system/resources/thumbnails/007/292/426/small/different-bollards-and-technical-installations-of-vessel-traffic-at-a-port-photo.jpg"
+    }
+  ],
+  "world": "Bollar Learning"
+}
