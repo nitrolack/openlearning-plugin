@@ -1,0 +1,105 @@
+#openlearning-overlay {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+  
+    width: clamp(320px, 28vw, 420px);
+    max-height: 85vh;
+  
+    background: rgba(15, 18, 28, 0.96);
+    backdrop-filter: blur(10px);
+  
+    border-radius: 18px;
+    box-shadow: 0 25px 60px rgba(0,0,0,0.5);
+  
+    color: #ffffff;
+    font-family: Barlow, sans-serif;
+  
+    font-size: clamp(15px, 0.95vw, 17px);
+  
+    overflow: hidden;
+    z-index: 999999;
+  }
+  #openlearning-overlay {
+    backdrop-filter: none;   /* entfernt Glow/Blur-Effekt */
+  }
+  /* HEADER */
+
+.ol-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    padding: clamp(14px, 1vw, 18px);
+  
+    background: #1c2133;   /* kein halbtransparentes Glühen */
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+  
+    cursor: move;
+  }
+  
+  .ol-title {
+    font-weight: 600;
+    font-size: clamp(16px, 1vw, 18px);
+    color: #ffffff;
+  
+    text-shadow: none;     /* wichtig */
+    filter: none;          /* falls irgendwo gesetzt */
+  }
+  
+  .ol-close {
+    background: none;
+    border: none;
+    color: white;
+    font-size: clamp(18px, 1.2vw, 20px);
+    cursor: pointer;
+  }
+  
+  .ol-close:hover {
+    opacity: 0.6;
+  }
+  
+  /* CONTENT */
+  
+  .ol-content {
+    padding: clamp(14px, 1vw, 20px);
+    display: flex;
+    flex-direction: column;
+    gap: clamp(14px, 1vw, 18px);
+  
+    max-height: 75vh;
+    overflow-y: auto;
+  }
+  
+  .ol-map {
+    font-size: clamp(14px, 0.9vw, 16px);
+    opacity: 0.7;
+  }
+  
+  /* CARDS */
+  
+  .ol-card {
+    background: rgba(255,255,255,0.06);
+    padding: clamp(12px, 1vw, 16px);
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: clamp(8px, 0.8vw, 12px);
+  }
+  
+  .ol-tag {
+    font-size: clamp(14px, 0.9vw, 16px);
+    font-weight: 600;
+    opacity: 0.85;
+  }
+  
+  .ol-text {
+    font-size: clamp(16px, 1vw, 18px);
+    line-height: 1.6;
+  }
+  
+  .ol-image {
+    width: 100%;
+    border-radius: 12px;
+    object-fit: cover;
+  }
