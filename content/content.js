@@ -169,7 +169,7 @@ console.log("Content script injected");
         loading = true;
       
         try {
-          const xpArea = document.getElementById("XParea");
+          const xpArea = document.getElementById("experienceArea");
       
           if (xpArea && !triggered) {
             triggered = true;
